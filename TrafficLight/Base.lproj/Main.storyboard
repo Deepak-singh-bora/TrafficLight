@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrafficLight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Otw-yz-yAv">
+                                <rect key="frame" x="327" y="87.333333333333314" width="50" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t0V-WF-gTe">
+                                        <rect key="frame" x="12.333333333333314" y="10" width="25" height="25"/>
+                                        <color key="backgroundColor" red="1" green="0.080281644168564648" blue="0.10522609860422394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="A1c-jQ-ORn"/>
+                                            <constraint firstAttribute="width" constant="25" id="OWZ-Sc-Pm3"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mMC-Eo-Khc">
+                                        <rect key="frame" x="12.333333333333314" y="50.000000000000014" width="25" height="25"/>
+                                        <color key="backgroundColor" red="0.98728158477263295" green="1" blue="0.10512659170639749" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1St-tj-USG">
+                                        <rect key="frame" x="12.333333333333314" y="90.000000000000014" width="25" height="25"/>
+                                        <color key="backgroundColor" red="0.044787365063972948" green="0.74726364213197971" blue="0.2869503686506687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.3745439403553299" green="0.3745439403553299" blue="0.3745439403553299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mMC-Eo-Khc" firstAttribute="centerX" secondItem="t0V-WF-gTe" secondAttribute="centerX" id="324-70-1og"/>
+                                    <constraint firstAttribute="width" constant="50" id="Ff2-qz-jVf"/>
+                                    <constraint firstItem="1St-tj-USG" firstAttribute="top" secondItem="mMC-Eo-Khc" secondAttribute="bottom" constant="15" id="LLi-io-iZu"/>
+                                    <constraint firstItem="1St-tj-USG" firstAttribute="width" secondItem="mMC-Eo-Khc" secondAttribute="width" id="LYa-CT-4Xv"/>
+                                    <constraint firstItem="t0V-WF-gTe" firstAttribute="centerX" secondItem="Otw-yz-yAv" secondAttribute="centerX" id="QDP-3B-80p"/>
+                                    <constraint firstItem="mMC-Eo-Khc" firstAttribute="height" secondItem="t0V-WF-gTe" secondAttribute="height" id="ROH-1I-A2J"/>
+                                    <constraint firstItem="mMC-Eo-Khc" firstAttribute="width" secondItem="t0V-WF-gTe" secondAttribute="width" id="Rog-Cs-ID6"/>
+                                    <constraint firstItem="1St-tj-USG" firstAttribute="centerX" secondItem="mMC-Eo-Khc" secondAttribute="centerX" id="TGo-GP-5Jd"/>
+                                    <constraint firstItem="mMC-Eo-Khc" firstAttribute="top" secondItem="t0V-WF-gTe" secondAttribute="bottom" constant="15" id="Txl-YN-Krq"/>
+                                    <constraint firstItem="1St-tj-USG" firstAttribute="height" secondItem="mMC-Eo-Khc" secondAttribute="height" id="jBn-mM-Ycc"/>
+                                    <constraint firstAttribute="height" constant="128" id="wPo-6l-XyQ"/>
+                                    <constraint firstItem="t0V-WF-gTe" firstAttribute="centerY" secondItem="Otw-yz-yAv" secondAttribute="centerY" multiplier="0.35" id="zPt-HX-WRu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ct6-Wb-6sj">
+                                <rect key="frame" x="349.33333333333331" y="215.33333333333334" width="5" height="80.000000000000028"/>
+                                <color key="backgroundColor" red="0.043682582487309607" green="0.043682582487309607" blue="0.043682582487309607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5" id="3Ib-MC-bp0"/>
+                                    <constraint firstAttribute="height" constant="80" id="ldx-2p-YiM"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fcar2" translatesAutoresizingMaskIntoConstraints="NO" id="6qr-hT-2Oi">
+                                <rect key="frame" x="296" y="463" width="81" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car1" translatesAutoresizingMaskIntoConstraints="NO" id="4uD-Q5-bRo">
+                                <rect key="frame" x="141" y="602" width="136" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bcar3" translatesAutoresizingMaskIntoConstraints="NO" id="0yE-S3-vu0">
+                                <rect key="frame" x="35" y="602" width="98" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fcar1" translatesAutoresizingMaskIntoConstraints="NO" id="zKu-ST-KjD">
+                                <rect key="frame" x="281" y="361" width="96" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btruck1" translatesAutoresizingMaskIntoConstraints="NO" id="qPc-zy-PaI">
+                                <rect key="frame" x="91" y="452" width="121" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Otw-yz-yAv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="1.7" id="7Cw-Tk-idQ"/>
+                            <constraint firstItem="Ct6-Wb-6sj" firstAttribute="top" secondItem="Otw-yz-yAv" secondAttribute="bottom" id="bQR-g2-XZn"/>
+                            <constraint firstItem="Otw-yz-yAv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.4" id="q20-n2-wz5"/>
+                            <constraint firstItem="Ct6-Wb-6sj" firstAttribute="centerX" secondItem="Otw-yz-yAv" secondAttribute="centerX" id="xo6-1d-aoR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="car1" destination="4uD-Q5-bRo" id="V9g-yD-6mH"/>
+                        <outlet property="carb" destination="0yE-S3-vu0" id="GKf-hR-UzP"/>
+                        <outlet property="fcar" destination="zKu-ST-KjD" id="827-zx-apz"/>
+                        <outlet property="fcar2" destination="6qr-hT-2Oi" id="PY3-es-cGZ"/>
+                        <outlet property="greenLight" destination="1St-tj-USG" id="G77-oN-ahc"/>
+                        <outlet property="redLight" destination="t0V-WF-gTe" id="qxv-SB-4WU"/>
+                        <outlet property="trafficLightUpperBox" destination="Otw-yz-yAv" id="wXn-zo-yB1"/>
+                        <outlet property="truck" destination="qPc-zy-PaI" id="vg3-ST-HE9"/>
+                        <outlet property="yellowLight" destination="mMC-Eo-Khc" id="fIb-cM-jkg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440.57971014492756" y="-386.41304347826087"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bcar3" width="900" height="500"/>
+        <image name="btruck1" width="256" height="256"/>
+        <image name="car1" width="225" height="225"/>
+        <image name="fcar1" width="128" height="128"/>
+        <image name="fcar2" width="700" height="700"/>
+    </resources>
+</document>
